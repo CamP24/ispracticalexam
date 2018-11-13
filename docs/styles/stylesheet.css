@@ -1,6 +1,6 @@
 #wrapper {
     width: 960px;
-    length: 1000px;
+    height: 1000px;
 }
 
 .floatLeft {
@@ -102,10 +102,6 @@
     margin-left: 20px;
 }
 
-#footer {
-    height: 100px;
-}
-
 .centerTable {
     margin-left: 206px;
     margin-right: 206px;
@@ -122,6 +118,32 @@
     padding-left: auto;
 }
 
-.background {
+#main {
     background-image: url("img/jeep.jpg");
+    background-repeat: no-repeat;
+    height: 554px;
+}
+
+.whiteText {
+    color: white;
+}
+
+.noSerif {
+    font-family: sans-serif;
+}
+
+.topPadding {
+    padding-top: 60px;
+}
+
+.shade {
+    background: rgba(0,0,0,0.5);
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+#leftpanel {
+    height: 100%;
+    width: 50%;
 }
