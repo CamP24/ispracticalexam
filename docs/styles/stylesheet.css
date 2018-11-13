@@ -1,5 +1,6 @@
 #wrapper {
     width: 960px;
+    length: 1000px;
 }
 
 .floatLeft {
@@ -70,20 +71,57 @@
 
 #footer{
     background-color: black;
-    text-decoration-color: white;
+    color: white;
     height: 100px;
-}
-
-#Mountains {
-    width: 321px;
-    margin: 0px;
+    line-height: 100px;
 }
 
 #content {
-    width: 639px;
-    margin: 0;
+    width: 960px;
+    height: 800px;
 }
 
 #table {
     width: 185px;
+}
+
+#mountains {
+    width: 286.81px;
+}
+
+#text{
+    width: 598px;
+    float: left;
+}
+
+.marginRight {
+    margin-right: 20px;
+}
+
+.marginLeft {
+    margin-left: 20px;
+}
+
+#footer {
+    height: 100px;
+}
+
+.centerTable {
+    margin-left: 206px;
+    margin-right: 206px;
+}
+
+.centerCopy {
+    line-height: 100%;
+}
+
+.centerPadding {
+    padding-right: auto;
+    padding-top: auto;
+    padding-bottom: auto;
+    padding-left: auto;
+}
+
+.background {
+    background-image: url("img/jeep.jpg");
 }
